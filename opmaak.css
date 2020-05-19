@@ -1,4 +1,29 @@
 body {
   background-image: url(images/achtergrond3.jpg);
   background-size: cover;
+  margin: 0;
+}
+
+#index {
+  position: absolute;
+  left: 0;
+  width: 170px;
+  height: 100%;
+  padding: 40px 20px 0 0;
+  background-color: rgba(255, 192, 203, 0.4);
+  font-size: 14pt;
+  color: rgb(47, 255, 92);
+}
+
+#hoofdtekst {
+  margin: 0px;
+  margin-left: 190px;
+  background-color: yellow;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+#hoofdtekst p {
+  background-color: red;
+padding: 10px;
 }
