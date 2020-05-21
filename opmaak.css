@@ -11,10 +11,23 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
-  display: block;
+  text-decoration: none; /*Zodat je geen lijnen bij de links hebt */
+  color: black;
+  text-align: center;
+  display: block; /*Zodat je op het gedeelte om de letters ook kan klikken */
+  padding: 1em;
   width: 10em;
-  background: yellow;
+  height: 3em;
+  background: rgb(189, 189, 189);
+}
+
+nav a:hover { /*dit is pseudo class, hover, zodat als je met je muis eroverheen gaat dat dat stukje (a) een andere kleur krijgt. */
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+
+nav a.actief {
+  background-color: rgb(78, 133, 150);
 }
 
 #index {
