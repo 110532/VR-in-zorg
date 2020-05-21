@@ -4,6 +4,19 @@ body {
   margin: 0;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  width: 10em;
+  background: yellow;
+}
+
 #index {
   position: absolute;
   left: 0;
