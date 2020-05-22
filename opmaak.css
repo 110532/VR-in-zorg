@@ -49,22 +49,48 @@ nav a.actief {
   width: 170px;
   height: 100%;
   padding: 40px 20px 0 0;
-  background-color: rgba(255, 192, 203, 0.4);
+  background-color: rgba(255, 192, 203, 0.247);
   font-size: 14pt;
   color: rgb(47, 255, 92);
+}
+
+#index ul {
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 7px;
+}
+
+#index li {
+  padding: 5px;
+  padding-right: 0;
+}
+
+#index a {
+  text-decoration: none;
+  display: block;
+  background-color: rgba(240, 229, 240, 0.233);
+  border-left: 5px solid rgb(110, 177, 170);
+  padding-left: 6px;
+  padding: 3px 3px 3px 6px;
+  color: black;
+  border-top-right-radius: 7px;
+}
+
+#index a:hover {
+    background-color: rgba(240, 229, 240, 0.534);
 }
 
 #hoofdtekst {
   margin: 0px;
   margin-left: 190px;
-  background-color: yellow;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 0, 0.582);
   padding: 30px;
-  border-radius: 30px;
 }
 
 #hoofdtekst p {
   background-color: red;
-padding: 10px;
+  padding: 10px;
 }
 
 #video {
