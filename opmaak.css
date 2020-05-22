@@ -2,12 +2,25 @@ body {
   background-image: url(images/achtergrond3.jpg);
   background-size: cover;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif
 }
+
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  height: 4em;
+  background-color: rgb(189, 189, 189);
+}
+
+nav li {
+  float: left;
+
+}
+
+nav li.rechts {
+  float: right;
 }
 
 nav a {
@@ -16,8 +29,8 @@ nav a {
   text-align: center;
   display: block; /*Zodat je op het gedeelte om de letters ook kan klikken */
   padding: 1em;
-  width: 10em;
-  height: 3em;
+  width: 6em;
+  height: 2em;
   background: rgb(189, 189, 189);
 }
 
@@ -52,4 +65,13 @@ nav a.actief {
 #hoofdtekst p {
   background-color: red;
 padding: 10px;
+}
+
+#video {
+  margin: auto;
+  width: 853px;
+  border: 3px solid rgba(64, 115, 134, 0.8);
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgba(25, 86, 107, 0.8);
 }
