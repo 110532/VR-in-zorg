@@ -22,26 +22,27 @@
     </ul>
 	</nav>
 
-<form action="#">
+<form action="#" id="contactformulier">
   <fieldset>
-   <legend> Om te registreren </legend>
-    <label for="naam" > naam </label> 
-   <input type="text" id="naam" autofocus> <br> 
-    <label for="email"> e-mail </label>
-   <input type="email" id="email"> <br>
-   <label for="telefoon"> telefoon </label>
-   <input type="tel" id="telefoon"> <br>
-   <label for="land"> land </label>
-   <input list="landlijst" id="land"> <br>
-   <datalist id="landlijst">
-     <option value="België">België</option>
-     <option value="Frankrijk">Frankrijk</option>
-     <option value="Duitsland">Duitsland</option>
-     <option value="Nederland" selected>Nederland</option>
-     <option value="Italië">Italië</option>
-  </datalist>
-    <input type="submit" value="verstuur"> <br>
-   </form>
+   <legend> Uw contactgegevens </legend>
+    <label for="naam" > Naam: </label><br> 
+    <input type="text" id="naam" autofocus placeholder="Uw voor en achternaam"> <br> 
+    <label for="email"> E-mail: </label><br>
+    <input type="email" id="email" placeholder="e-mailadress"> <br>
+    <label for="telefoon"> Telefoonnummer: </label><br>
+    <input type="tel" id="telefoon" placeholder="10 cijfers" pattern="[0-9]{10}"> <br>
+    <label for="land"> Land: </label><br>
+    <input list="landlijst" id="land" placeholder="land van herkomst"> <br>
+      <datalist id="landlijst">
+        <option value="België">België</option>
+        <option value="Frankrijk">Frankrijk</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Nederland" selected>Nederland</option>
+        <option value="Italië">Italië</option>
+      </datalist><br>
+     <input type="submit" value="verstuur" id="knop"> <br>
+  </fieldset>
+</form>
 </body>
 
 </html>

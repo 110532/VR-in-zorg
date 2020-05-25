@@ -118,3 +118,31 @@ nav a.actief {
   margin-top: 30px;
   background-color: rgba(25, 86, 107, 0.8);
 }
+
+#contactformulier {
+  background-color: rgba(68, 126, 128, 0.514);
+  width: 400px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 19pt;
+}
+
+#contactformulier input{
+  font-size: 18pt;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 4px;
+  background-color: rgba(188, 208, 209, 0.89);
+}
+
+#contactformulier input:invalid {
+background-color: rgba(231, 41, 41, 0.356);
+}
+
+#contactformulier input:focus-within {
+  background-color: white;
+}
+
+#knop {
+  background-color: rgba(110, 145, 110, 0.897);
+}
