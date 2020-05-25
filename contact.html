@@ -13,8 +13,8 @@
 
 <body>
 	<nav>
-    <ul>
-      <li><a href="index.html"><img src="images/huis.png" width=”38” height="38" alt="Home"></a></li>
+		<ul>
+			<li><a href="index.html"><img src="images/huis.png" width=”38” height="38" alt="Home"></a></li>
       <li><a href="overvr.html">VR in de zorg</a></li>
       <li><a href="filmpje.html">Filmpje</a></li>
       <li class="rechts"><a href="over.html">Over</a></li>
@@ -22,6 +22,26 @@
     </ul>
 	</nav>
 
+<form action="#">
+  <fieldset>
+   <legend> Om te registreren </legend>
+    <label for="naam" > naam </label> 
+   <input type="text" id="naam" autofocus> <br> 
+    <label for="email"> e-mail </label>
+   <input type="email" id="email"> <br>
+   <label for="telefoon"> telefoon </label>
+   <input type="tel" id="telefoon"> <br>
+   <label for="land"> land </label>
+   <input list="landlijst" id="land"> <br>
+   <datalist id="landlijst">
+     <option value="België">België</option>
+     <option value="Frankrijk">Frankrijk</option>
+     <option value="Duitsland">Duitsland</option>
+     <option value="Nederland" selected>Nederland</option>
+     <option value="Italië">Italië</option>
+  </datalist>
+    <input type="submit" value="verstuur"> <br>
+   </form>
 </body>
 
 </html>

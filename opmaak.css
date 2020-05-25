@@ -93,6 +93,23 @@ nav a.actief {
   padding: 10px;
 }
 
+#extrablok {
+  background-color: greenyellow;
+  margin: 10px;
+  margin-top: 40px;
+}
+
+#inleiding {
+  background-color: purple;
+  margin-top: 130px;
+  padding: 30px;
+  
+}
+
+#inleiding p {
+  background-color: black;
+}
+
 #video {
   margin: auto;
   width: 853px;
