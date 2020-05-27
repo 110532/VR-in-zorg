@@ -99,20 +99,33 @@ nav a.actief {
   margin-top: 40px;
 }
 
+#plaatbalk {
+  width: 100%;
+  height: auto;
+  background-color: rgba(209, 189, 216, 0.459);
+}
+
+#banner {
+  display: block;
+  margin: auto; 
+}
+
 #inleiding {
-  background-color: rgba(255, 255, 255, 0);
-  margin-top: 130px;
-  padding: 30px;
+  background-color: rgba(209, 189, 216, 0.459);
+  margin-top: 0;
+  padding: 0;
 }
 
 #inleiding p {
-  background-color: rgb(145, 62, 173);
+  background-color: rgba(209, 189, 216, 0.808);
   margin: auto;
-  width: 450px;
+  max-width: 720px;
   font-size: 18pt;
-  font-style: oblique;
   padding: 35px;
-  border-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+  margin-top: 0;
 }
 
 #video {
