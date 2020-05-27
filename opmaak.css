@@ -80,23 +80,30 @@ nav a.actief {
     background-color: rgba(240, 229, 240, 0.534);
 }
 
-#hoofdtekst {
+#hoofdtekst { /*Dit blok is alleen om de tekst weg te houden van de index */
   margin: 0px;
   margin-left: 190px;
   margin-top: 30px;
-  background-color: rgba(255, 255, 0, 0.582);
   padding: 30px;
 }
 
 #hoofdtekst p {
-  background-color: red;
   padding: 10px;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
-#extrablok {
-  background-color: greenyellow;
-  margin: 10px;
-  margin-top: 40px;
+#inhoud {
+  background-color: rgba(209, 189, 216, 0.747);
+  padding: 30px;
+  max-width: 785px;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 14pt;
+}
+
+h2 {
+  margin: 0;
 }
 
 #plaatbalk {
@@ -114,6 +121,7 @@ nav a.actief {
   background-color: rgba(209, 189, 216, 0.459);
   margin-top: 0;
   padding: 0;
+  padding-bottom: 60px;
 }
 
 #inleiding p {
@@ -161,6 +169,6 @@ background-color: rgba(231, 41, 41, 0.356);
   background-color: white;
 }
 
-#knop {
-  background-color: rgba(110, 145, 110, 0.897);
+form input[type=submit] {
+  background-color: yellow;
 }
