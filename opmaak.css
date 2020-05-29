@@ -157,7 +157,7 @@ h2 {
   margin-top: 60px;
   font-size: 19pt;
   border-radius: 25px;
-  padding: 20px;
+  padding: 25px;
 }
 
 #contactformulier input{
@@ -207,10 +207,11 @@ form input[type=submit] {
 
 #tekstcontact {
   background-color: rgba(68, 126, 128, 0.692);
-  padding: 30px;
+  padding: 11px 25px;
   max-width: 785px;
   margin: auto;
   border-radius: 20px;
   font-size: 14pt;
   margin-top: 40px;
+  width: 400px;
 }
