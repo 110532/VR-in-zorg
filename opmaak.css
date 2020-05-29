@@ -156,6 +156,8 @@ h2 {
   margin: auto;
   margin-top: 60px;
   font-size: 19pt;
+  border-radius: 25px;
+  padding: 20px;
 }
 
 #contactformulier input{
@@ -176,4 +178,39 @@ background-color: rgba(218, 47, 47, 0.788);
 
 form input[type=submit] {
   background-color: yellow;
+}
+
+#over {
+  background-color: rgba(209, 189, 216, 0.747);
+  padding: 30px;
+  max-width: 785px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 20px;
+  font-size: 14pt;
+}
+
+#over p {
+  margin-bottom: 3em;
+}
+
+#tabel td  {
+  padding: 10px 20px;
+  background-color: rgba(142, 73, 207, 0.233);
+  border: 2px solid rgb(99, 98, 98);
+}
+
+#tabel caption {
+  caption-side: bottom;
+  text-align: right;
+}
+
+#tekstcontact {
+  background-color: rgba(68, 126, 128, 0.692);
+  padding: 30px;
+  max-width: 785px;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 14pt;
+  margin-top: 40px;
 }
